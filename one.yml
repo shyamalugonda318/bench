@@ -1,0 +1,8 @@
+---
+ - name: To test ansible tower
+   hosts: MYLIFE
+   tasks:
+   - name: well as of now display some content
+     debug:
+       msg: " AWSOME BRO"
+...
